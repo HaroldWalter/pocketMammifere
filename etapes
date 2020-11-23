@@ -1,0 +1,24 @@
+
+Onjectif du TP 
+
+Créer une page web permttant :  
+    - d'afficher une liste de mammifères
+    - de pouvoir créer un mammifère (ie ajouter à la liste et l'afficher)
+    - de pouvoir sypprimer un mammifère de la liste
+    - de pouvoir modifier un mammifère préalablement ajouté
+
+Liste des étpaes : 
+
+1) Définir ce qu'est un mammifère et ce que l'on souhaitre représenter 
+2) Afficher les propriétés d'un mammifère (mise en forme de l'affichage d'un mammifère)
+3) Afficher 5 mammifères
+4) Mettre en place un formulaire de création de mammifère
+5) Mettre en place la fonctionnalité d'édition d'un mammifère
+6) Mettre en place la fonctionnalité de suppression d'un mammifère
+
+1) 
+Nom (ex: Ornithorynque)
+Ordre (Monotrème)
+Image
+
+2) Afficher les propriétés d'un mammifère (mise en forme de l'affichage d'un mammifère)
