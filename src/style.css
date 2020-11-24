@@ -11,7 +11,7 @@ body {
 	margin: 0;
 }
 figure {
-    margin: 0;
+	margin: 0;
 }
 /* ================== Header ================= */
 header {
@@ -24,12 +24,37 @@ header {
 	font-size: 0.95em;
 }
 /* =============Main=========== */
-article {
-    width: 20%;
-    box-shadow: 10px 5px 5px red;
-    display: flex;
-   
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
-article figure, article figure img{
-    width: 100%;
+article {
+	width: 20%;
+	box-shadow: 10px 5px 5px red;
+	border-radius: 10px;
+}
+article figure,
+article figure img {
+	width: 100%;
+	margin: 0;
+}
+figure {
+	background: rgb(160, 160, 233);
+	padding: 5px;
+}
+article h3 {
+	background-color: black;
+	color: white;
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+article p {
+	text-align: center;
+	
+}
+article p span {
+	text-transform: uppercase;
 }
