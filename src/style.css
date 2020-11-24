@@ -28,20 +28,25 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+	
 }
 article {
 	width: 20%;
 	box-shadow: 10px 5px 5px red;
-	border-radius: 10px;
+	border-radius:10px;
+	margin:10px;
 }
 article figure,
 article figure img {
-	width: 100%;
 	margin: 0;
+	overflow: hidden;
+	height: 200px;
+	text-align: center;
+	
 }
 figure {
 	background: rgb(160, 160, 233);
-	padding: 5px;
+	border-radius: 10px 10px 0 0 ;
 }
 article h3 {
 	background-color: black;
@@ -50,6 +55,7 @@ article h3 {
 	padding: 5px 0;
 	text-align: center;
 	text-transform: uppercase;
+	width: 100%;
 }
 article p {
 	text-align: center;
